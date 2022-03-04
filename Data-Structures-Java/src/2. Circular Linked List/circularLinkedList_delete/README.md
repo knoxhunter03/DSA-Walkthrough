@@ -2,7 +2,7 @@
 ## 1. from Beginning
 ## 2. from End
 #3 3. at Specific Location
-## [Video Reference 👆](// https://www.youtube.com/watch?v=aaULI7OIeD8&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=14) 
+## [Video Reference 👆](https://www.youtube.com/watch?v=aaULI7OIeD8&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=14) 
 
 ## Code :
 

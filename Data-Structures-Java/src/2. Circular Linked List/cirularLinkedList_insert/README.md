@@ -3,7 +3,7 @@
 ## 1. from Beginning
 ## 2. from End
 ## 3. at Specific Location
-## [Video Reference 👆](// https://www.youtube.com/watch?v=BOEKC-S5ZQM&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=13) 
+## [Video Reference 👆](https://www.youtube.com/watch?v=BOEKC-S5ZQM&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=13) 
 
 ## Code :
 
