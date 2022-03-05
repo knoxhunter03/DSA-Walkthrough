@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/1. Singly Linked List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/1. Singly Linked List/singlyLinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/1. Singly Linked List/singlyLinkedList_delete" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/1. Singly Linked List/singlyLinkedList_insert" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/2. Circular Linked List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/2. Circular Linked List/circularLinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/2. Circular Linked List/circularLinkedList_delete" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/2. Circular Linked List/cirularLinkedList_insert" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedLIst_insert" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedList_delete" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
