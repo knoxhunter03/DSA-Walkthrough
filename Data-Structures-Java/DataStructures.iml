@@ -15,8 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Testing" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedLIst_insert" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedList_delete" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Doubly Linked List/doublyLinkedList_insert" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
