@@ -8,8 +8,8 @@
 ### Queue Major Terms:
 - **Underflow** : When _**front == -1 && rear == -1**_, Queue is empty!
 - **Overflow** : When _**rear == (n-1)**_, Queue is full! { 'n' is the size of the Static Array here}
-- **Push** : Inserting an elemnet in Queue **(i.e from rear end)**
-- **Pop** : Deleting an element from Queue **(i.e. from front end only)**
+- **Enqueue** : Inserting an elemnet in Queue **(i.e from rear end)**
+- **Dequeue** : Deleting an element from Queue **(i.e. from front end only)**
 - **Display or Show** : Traversal of elements
 ## [Video Reference 👆](https://www.youtube.com/watch?v=UQnbuAXjNtI&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=25)
 ## Code :
