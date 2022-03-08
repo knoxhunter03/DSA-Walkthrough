@@ -36,6 +36,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/2. Stack" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/2. Stack/stack_Array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/2. Stack/stack_LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Queue/queue_Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Queue/queue_LinkedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
