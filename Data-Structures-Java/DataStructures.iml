@@ -40,6 +40,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Queue/queue_Array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Queue/queue_LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Queue/circular_Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Queue/circular_Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Queue/queue_Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Queue/queue_LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Collection Framework" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
