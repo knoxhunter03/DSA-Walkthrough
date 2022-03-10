@@ -1,7 +1,7 @@
 # How to use Queue?
 We are implementing Queue using Linked List here
 
-## Stack Methods()
+## Queue Methods()
 - **offer()** - adds an element in the Queue
 - **poll()** - removes the element from front in Queue
 - **peek()** - returns the front element of the Queue
