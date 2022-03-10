@@ -45,6 +45,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/3. Queue/queue_Array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/3. Queue/queue_LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Collection Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Collection Framework/ArrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Collection Framework/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Collection Framework/Stack" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
