@@ -71,7 +71,7 @@ class queue1{
         }
     }
 }
-public class queue_LinkedList {
+public class queue_LinkedList2 {
     public static void main(String[] args) {
         int choice, n;
         queue1 Q = new queue1();

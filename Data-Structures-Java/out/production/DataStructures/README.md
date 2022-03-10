@@ -1,47 +1,104 @@
-# How to use Stack?
-
-## Stack Methods()
-- **push()** - adds element into stack
-- **pop()** - deletes or removes the top item from stack
-- **peek()** - returns the top element from stack
-- **search()** - basically is used to check whether an element is present or not? It returns the index or location from top;
-- **isEmpty** - checks whether Stack is empty or not
-
-## [Video Reference 👆](https://www.youtube.com/watch?v=YW2mcHBvn4c&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=29)
-## [Video Reference 2 👆](https://www.youtube.com/watch?v=rzA7UJ-hQn4&t=552s)
+# Queue using Linked List (Implementation)
+### Queue Major Terms:
+- **Underflow** : When _**front == null && rear == null**_, Queue is empty!
+- **Overflow** : Basically **no Overflow condition**, as we can insert elements in Linked List dynamically.
+- **Enqueue** : Inserting an elemnet in Queue **(i.e Insertion from End)**
+- **Dequeue** : Deleting an element from Queue **(i.e. Deletion from Beginning)**
+- **Display or Show** : Traversal of elements
+## [Video Reference 👆](https://www.youtube.com/watch?v=Ey_CeVcZi4c&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=26)
 
 ## Code :
 
 ```java
-import java.util.Stack;
+import java.util.Scanner;
 
-public class stack_CollectionFramework {
+// https://www.youtube.com/watch?v=Ey_CeVcZi4c&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=26
+class queue1{
+    private static class Node{
+        int data;
+        Node next;
 
+        Node(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+    Node front = null;
+    Node rear = null;
+
+    void enQueue(){
+        int data;
+        System.out.println("Enter the data: ");
+        Scanner sc = new Scanner(System.in);
+        data = sc.nextInt();
+
+        Node new_node = new Node(data);
+
+        // Insert elements in Linked List at the end!
+        if(front == null){
+            front = new_node;
+            rear = new_node;
+        }
+        else {
+            rear.next = new_node;
+            rear = new_node;
+        }
+        System.out.println("Item added!");
+
+    }
+
+    void deQueue(){
+        if(front == null){
+            System.out.println("Underflow Condition!");
+        }
+        else {
+            front = front.next;
+            System.out.println("Item deleted!");
+        }
+    }
+
+    void display(){
+        Node temp = front;
+
+        if(front == null){
+            System.out.println("Queue is empty!");
+        }
+        else {
+            while (temp != null){
+                System.out.println(temp.data);
+                temp = temp.next;
+            }
+        }
+    }
+}
+public class queue_LinkedList2 {
     public static void main(String[] args) {
-        Stack<Integer> c = new Stack<>(); // Syntax of Stack using Collection Framework
+        int choice, n;
+        queue1 Q = new queue1();
 
-        c.push(10); // push() - adds element into stack
-        c.push(20);
-        c.push(30);
+        do{
+            System.out.println("Press 1 to Enqueue");
+            System.out.println("Press 2 to Dequeue");
+            System.out.println("Press 3 to Display");
+            Scanner sc = new Scanner(System.in);
+            choice = sc.nextInt();
 
-        System.out.println(c); // It will printed like [10,20,30]
+            switch (choice){
+                case 1:
+                    Q.enQueue();
+                    break;
+                case 2:
+                    Q.deQueue();
+                    break;
+                case 3:
+                    Q.display();
+                    break;
+            }
 
-        c.pop(); // pop() - deletes or removes the top item from stack
-        System.out.println("After popping elements from stack");
-        System.out.println(c);
-
-        c.push(80);
-        c.push(99);
-
-        int d = c.peek(); // peek() - returns the top element from stack
-        System.out.println("After insertion, the top element becomes");
-        System.out.println(d);
-
-        System.out.println("The index of the element 20 is");
-        int x = c.search(99); // search() - basically is used to check whether an element is
-        // present or not! It returns the index or location from top;
-        System.out.println(x);
-
+            System.out.println("Press 0 to go back to main menu");
+            System.out.println("Enter any number to EXIT");
+            n = sc.nextInt();
+        }while (n==0);
     }
 }
 
