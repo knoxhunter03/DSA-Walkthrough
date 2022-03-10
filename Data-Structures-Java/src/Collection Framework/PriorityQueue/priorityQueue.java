@@ -1,12 +1,3 @@
-# How to implement Priority Queue
-It can be implemented using Collection Framework
-- **By default** - it uses _Min Heap_ Concept to print the data
-- To use _Max Heap_ Concept we need to make modification in syntax as shown in code below **Comparator.reverseOrder()**
-## [Video Reference 👆](https://www.youtube.com/watch?v=gC0nghFzLvo&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=30)
-
-## Code :
-
-```java
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -47,8 +38,3 @@ public class priorityQueue {
         System.out.println(d);
     }
 }
-
-```
-
-## Output :
-![PriorityQUEUEimg]()

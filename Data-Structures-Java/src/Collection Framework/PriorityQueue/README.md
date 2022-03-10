@@ -51,4 +51,4 @@ public class priorityQueue {
 ```
 
 ## Output :
-![PriorityQUEUEimg]()
+![PriorityQUEUEimg](https://i.postimg.cc/NjqHtY7b/priority-Queue-Output.png)
