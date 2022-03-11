@@ -1,18 +1,9 @@
-# TreeSet Implementation
-- Sorted Collection of data
-- **Set + BST**
-## [Video Reference 👆](https://youtu.be/gC0nghFzLvo?list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su)
-
-## Code :
-
-```java
-import java.util.TreeSet;
+import java.util.HashSet;
 import java.util.Set;
 
-public class treeSet {
+public class hashSet {
     public static void main(String[] args) {
-
-        Set<Integer> value = new TreeSet<>();
+        Set<Integer> value = new HashSet<>(); // Syntax of HashSet
 
         value.add(10);
         value.add(20);
@@ -27,16 +18,16 @@ public class treeSet {
         System.out.println("Elements after removing 20");
         System.out.println(value);
 
+        //  value.set(0, 99); We cannot use set and get in HashSet
+
         value.add(40);
         value.add(50);
 
         boolean flag = value.contains(40);
         System.out.println(flag);
 
-        value.clear();
+        value.clear(); // clear() - It clears all the elements in ArrayList making it empty
         System.out.println("All the elements are cleared now");
         System.out.println(value);
     }
 }
-
-```

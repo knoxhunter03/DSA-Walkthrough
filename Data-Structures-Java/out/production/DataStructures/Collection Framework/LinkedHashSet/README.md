@@ -1,18 +1,26 @@
-# TreeSet Implementation
-- Sorted Collection of data
-- **Set + BST**
+# LinkedHashSet Implementation
+- **LinkedList + Set**
+- Ordered Collection
+- It stores data in HashTable
+- But is implemented using LinkedList
+- check the printing of data in both HashSet & LinkedHashSet to know the difference
+
+## HashSet Methods()
+- Almost same as ArrayList
+- Except get() & set() 
+- **We cannot use get() & set()**
 ## [Video Reference 👆](https://youtu.be/gC0nghFzLvo?list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su)
 
 ## Code :
 
 ```java
-import java.util.TreeSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class treeSet {
+public class linkedHashSet {
     public static void main(String[] args) {
 
-        Set<Integer> value = new TreeSet<>();
+        Set<Integer> value = new LinkedHashSet<>(); // Syntax of LinkedHashSet
 
         value.add(10);
         value.add(20);

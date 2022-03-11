@@ -1,11 +1,3 @@
-# TreeSet Implementation
-- Sorted Collection of data
-- **Set + BST**
-## [Video Reference 👆](https://youtu.be/gC0nghFzLvo?list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su)
-
-## Code :
-
-```java
 import java.util.TreeSet;
 import java.util.Set;
 
@@ -38,5 +30,3 @@ public class treeSet {
         System.out.println(value);
     }
 }
-
-```
