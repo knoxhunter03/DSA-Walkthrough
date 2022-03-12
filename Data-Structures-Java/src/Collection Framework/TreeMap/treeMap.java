@@ -1,11 +1,3 @@
-# HashMap Implementation Using Map Interface
-- Same as HashMap but data is stored in ordered way
-- **Map + BST**
-
-## [Video Reference 👆](https://youtu.be/gC0nghFzLvo?list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su)
-
-## Code :
-```java
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -18,7 +10,7 @@ public class treeMap {
         c.put(2,"B");
         c.put(4,"D");
         c.put(1,"A");
-        
+
 
         System.out.println("HashMap elements are :");
         System.out.println(c);
@@ -42,5 +34,3 @@ public class treeMap {
         }
     }
 }
-
-```

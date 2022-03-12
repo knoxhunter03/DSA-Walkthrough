@@ -1,24 +1,28 @@
 # HashMap Implementation Using Map Interface
-- Same as HashMap but data is stored in ordered way
-- **Map + BST**
+- Map contains two generics(Key, KeyValue)
+- Key cannot be repeated
+- But we can have duplicate key values
 
+## HashMap Methods()
+- **put()** - adds key value pairs in E.g. put(1,"A")
+- **putIfAbsent()** - first checks the value at key, if empty then inserts the given value
 ## [Video Reference 👆](https://youtu.be/gC0nghFzLvo?list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su)
 
 ## Code :
-```java
-import java.util.Map;
-import java.util.TreeMap;
 
-public class treeMap {
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class hashMap {
     public static void main(String[] args) {
-        Map<Integer, String> c = new TreeMap<>(); // Map<> uses two generics
+        Map<Integer, String> c = new HashMap<>(); // Map<> uses two generics
         // Stores value in form of key pairs
 
-        c.put(3,"C");
-        c.put(2,"B");
-        c.put(4,"D");
         c.put(1,"A");
-        
+        c.put(2,"B");
+        c.put(3,"C");
+        c.put(4,"D");
 
         System.out.println("HashMap elements are :");
         System.out.println(c);

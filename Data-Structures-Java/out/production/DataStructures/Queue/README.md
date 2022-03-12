@@ -30,7 +30,7 @@ public class queue_LinkedList2 {
         System.out.println("The front element is: " + c.peek());
         // peek() - returns the front element of the Queue
 
-        c.poll(); // pop() - removes the element from front in Queue
+        c.poll(); // poll() - removes the element from front in Queue
         c.poll();
         System.out.println("Queue elements after deleting :");
         System.out.println(c);
