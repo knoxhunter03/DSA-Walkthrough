@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Searching/LinearSearch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Searching/BinarySearch" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
