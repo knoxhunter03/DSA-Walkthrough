@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Testing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Searching/BinarySearch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting/BubbleSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Sorting/InsertionSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting/SelectionSort" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
