@@ -36,9 +36,13 @@ public class allSortAlgos {
     private static void mergeSort3(int[] inputArray){
         int inputSize = inputArray.length;
         int midIndex = inputSize / 2;
-        
+
         int[] leftHalf = new int[midIndex];
         int[] rightHalf = new int[inputSize - midIndex];
+
+        if(inputSize < 2){
+            return;
+        }
 
         for(int i = 0; i < midIndex; i++){
             leftHalf[i] = inputArray[i];
@@ -72,8 +76,10 @@ public class allSortAlgos {
             }
             else{
                 inputArray[k] = righHalf[j];
-                k++;
+                j++;
             }
+
+            k++;
         }
         while (i < leftSize){
             inputArray[k] = leftHalf[i];
