@@ -1,9 +1,10 @@
-# Selection Sort Algorithm
+# Insertion Sort Algorithm
 ### Time Complexity : O(N²)
 
 #### - It is better than Selection Sort, Selection Sort is better when there is a less number of data
 
 ## [Video Reference 👆](https://www.youtube.com/watch?v=Vrg1-ptCRA4&list=PLH9iLcrNpXtQYQiudzpZpGw0mptHc06Su&index=54)
+## [Video Reference 👆](https://www.youtube.com/watch?v=0lOnnd50cGI)
 
 ## Code :
 

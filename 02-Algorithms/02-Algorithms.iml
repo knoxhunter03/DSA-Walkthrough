@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting/SelectionSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting/QuickSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting/MergeSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Sorting/allSortAlgos" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
