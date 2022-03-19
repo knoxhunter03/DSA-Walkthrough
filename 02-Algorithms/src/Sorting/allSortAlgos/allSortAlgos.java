@@ -60,6 +60,36 @@ public class allSortAlgos {
 
     }
 
+    static int partition(int[] a, int start, int end){
+        int pivot = a[end];
+        int pindex = start;
+
+        for(int i = start; i < end; i++){
+            if(a[i] < pivot){
+
+                int temp = a[pindex];
+                a[pindex] = a[i];
+                a[i] = temp;
+
+                pindex++;
+            }
+        }
+
+        int temp = a[pindex];
+        a[pindex] = a[end];
+        a[end] = temp;
+
+        return pindex;
+    }
+
+    public static void quickSort4(int[] a, int start, int end){
+        if(start < end){
+            int p = partition(a, start, end);
+            quickSort4(a, start, p-1);
+            quickSort4(a, p+1, end);
+        }
+    }
+
     public static void merge(int[] inputArray, int[] leftHalf, int[] righHalf){
         int leftSize = leftHalf.length;
         int rightSize = righHalf.length;
@@ -103,7 +133,7 @@ public class allSortAlgos {
         }
 
         System.out.println("\n--------- Now, Please choose a Sorting Algorithm ---------");
-        System.out.println("1. BubbleSort \n2. InsertionSort \n3. MergeSort");
+        System.out.println("1. BubbleSort \n2. InsertionSort \n3. MergeSort \n4. QuickSort");
         System.out.println("Enter Choice : ");
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
@@ -119,6 +149,10 @@ public class allSortAlgos {
 
             case 3:
                 mergeSort3(a);
+                break;
+
+            case 4:
+                quickSort4(a, 0, n-1);
                 break;
 
             default:

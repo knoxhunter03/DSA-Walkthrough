@@ -1,26 +1,26 @@
 public class quickSort {
     static int partition(int a[], int start, int end){
         int pivot = a[end];
-        int pindex = start - 1;
+        int pindex = start;
 
-        for(int i = start; i <= end - 1; i++){
+        for(int i = start; i < end ; i++){
             if (a[i] < pivot) {
-
-                pindex++;
 
                 int temp = a[pindex];
                 a[pindex] = a[i];
                 a[i] = temp;
 
+                pindex++;
+
 
             }
         }
 
-        int temp = a[pindex+1];
-        a[pindex+1] = a[end];
+        int temp = a[pindex];
+        a[pindex] = a[end];
         a[end] = temp;
 
-        return (pindex+1);
+        return (pindex);
     }
 
     static void quickSortAlgo(int a[], int start, int end){
