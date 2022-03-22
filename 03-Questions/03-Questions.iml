@@ -6,6 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LinkedList/01-Reverse Linked List (Both Iterative &amp; Recursive)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/2- Add Two Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList/01-Reverse Linked List (Both Iterative &amp; Recursive)" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
