@@ -14,6 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList/01-Reverse Linked List (Both Iterative &amp; Recursive)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList/02-Reverse LL in K Groups" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/1-Two Sum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/141 - Linked List Cycle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList/03 -Detect Loops in LL" isTestSource="false" />
     </content>
