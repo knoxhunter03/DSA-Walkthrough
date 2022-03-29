@@ -7,7 +7,7 @@ Note :
 - I'm glad at least I could solve a problem without even looking at the solution
 - One **Better Approach is using slow & fast** pointer algo
 - When traversing the list with a pointer slow, make another pointer fast that traverses twice as fast. When fast reaches the end of the list, slow must be in the middle.
-- Time Complexity 0f Slow & Fast : _O(N)_
+- Time Complexity of Slow & Fast : _O(N)_
 ```java
 // BruteForce
 class Solution {
