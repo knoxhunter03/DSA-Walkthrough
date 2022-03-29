@@ -17,7 +17,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/1-Two Sum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/141 - Linked List Cycle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/206 - Reverse LL" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LoveBabbar - 450 DSA Sheet/LinkedList/03 -Detect Loops in LL" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/1290 - Convert Binary Number in a Linked List to Integer" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
