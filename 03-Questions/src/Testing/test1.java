@@ -1,81 +1,31 @@
-import java.util.HashSet;
-import java.util.Set;
+// Java program to illustrate the concept
+// of Collection objects storage in a HashSet
+import java.io.*;
+import java.util.*;
 
-// A Linked List Node
-class Node
-{
-    int data;
-    Node next;
-}
-
-class Main
-{
-    // Utility function to create a new node with the given data and
-    // pushes it onto the list's front
-    public static Node push(Node head, int data)
-    {
-        Node node = new Node();
-        node.data = data;
-        node.next = head;
-        return node;
-    }
-
-    // Utility function to print a linked list
-    public static void printList(Node head)
-    {
-        Node curr = head;
-        while (curr != null)
-        {
-            System.out.print(curr.data + " —> ");
-            curr = curr.next;
-        }
-        System.out.println("null");
-    }
-
-    // Function to identify and remove cycle in a linked list using hashing
-    public static void removeCycle(Node head)
-    {
-        Node prev = null;        // previous pointer
-        Node curr = head;        // main pointer
-
-        // maintain a set to store visited nodes
-        Set<Node> set = new HashSet<>();
-
-        // traverse the list
-        while (curr != null)
-        {
-            // set the previous pointer to null if the current node is seen before
-            if (set.contains(curr))
-            {
-                prev.next = null;
-                return;
-            }
-
-            // insert the current node into the set
-            set.add(curr);
-
-            // update the previous pointer to the current node and
-            // move the main pointer to the next node
-            prev = curr;
-            curr = curr.next;
-        }
-    }
+class CollectionObjectStorage {
 
     public static void main(String[] args)
     {
-        // total number of nodes in the linked list
-        int n = 5;
+        // Instantiate an object of HashSet
+        HashSet<ArrayList> set = new HashSet<>();
 
-        // construct a linked list
-        Node head = null;
-        for (int i = n; i > 0; i--) {
-            head = push(head, i);
-        }
+        // create ArrayList list1
+        ArrayList<Integer> list1 = new ArrayList<>();
 
-        // insert cycle
-        head.next.next.next.next.next = head.next;
+        // create ArrayList list2
+        ArrayList<Integer> list2 = new ArrayList<>();
 
-        removeCycle(head);
-        printList(head);
+        // Add elements using add method
+        list1.add(1);
+        list1.add(2);
+        list2.add(1);
+        list2.add(2);
+        set.add(list1);
+        set.add(list2);
+
+        // print the set size to understand the
+        // internal storage of ArrayList in Set
+        System.out.println(set.size());
     }
 }
