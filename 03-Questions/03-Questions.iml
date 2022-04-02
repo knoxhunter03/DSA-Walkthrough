@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/1290 - Convert Binary Number in a Linked List to Integer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/876 - Middle of the Linked List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/237 - Delete Node in a Linked List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/705 - Design Hashset" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
