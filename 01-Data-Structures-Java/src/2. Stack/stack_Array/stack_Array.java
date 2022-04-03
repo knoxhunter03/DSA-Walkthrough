@@ -10,7 +10,7 @@ class stack{
 
     void push(){
         if(top == (n-1)){
-            System.out.println("Underflow Condition!");
+            System.out.println("Overflow Condition!");
         }
         else{
             System.out.println("Enter the data: ");
@@ -24,7 +24,7 @@ class stack{
 
     void pop(){
         if(top == -1){
-            System.out.println("Overflow Condition!");
+            System.out.println("Underflow Condition!");
         }
         else{
             top--;
