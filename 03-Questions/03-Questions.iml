@@ -23,6 +23,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/876 - Middle of the Linked List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/237 - Delete Node in a Linked List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/705 - Design Hashset" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Stacks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Stacks/1614 - Maximum Nesting Depth of the Parentheses" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
