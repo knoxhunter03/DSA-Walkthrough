@@ -9,7 +9,7 @@ public class stackQ1 {
         ArrayList<Integer> arrli = new ArrayList<Integer>();
         Stack<Integer> s = new Stack<Integer>();
 
-        for(int i = n - 1; i <= 0; i--){
+        for(int i = n - 1; i >= 0; i--){
             if(s.size() == 0){
                 arrli.add(-1);
             }
@@ -30,7 +30,7 @@ public class stackQ1 {
                     arrli.add(s.peek());
             }
 
-            s.push(i);
+            s.push(arr[i]);
         }
 
         Collections.reverse(arrli);
@@ -41,15 +41,18 @@ public class stackQ1 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the Array : ");
-        int n = sc.nextInt();
+        int n = sc.nextInt();*/
 
-        int[] array = new int[n];
-        for(int i = 0; i < n; i++){
+        int[] array = {1, 2, 3, 4};
+        int n = array.length;
+       /* for(int i = 0; i < n; i++){
             System.out.println("Enter the array elements : ");
             array[i] = sc.nextInt();
         }
+*/
+        nextLargerElement(array,n);
 
 
     }
