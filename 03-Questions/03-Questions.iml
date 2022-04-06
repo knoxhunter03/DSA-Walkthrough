@@ -25,6 +25,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/LinkedList/705 - Design Hashset" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Stacks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Stacks/1614 - Maximum Nesting Depth of the Parentheses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Misc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Misc/GeeksForGeeks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Misc/GeeksForGeeks/Next Greater Element" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
