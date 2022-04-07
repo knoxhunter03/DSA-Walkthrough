@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Misc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Misc/GeeksForGeeks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Misc/GeeksForGeeks/Next Greater Element" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Misc/GeeksForGeeks/Smallest number on left" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
