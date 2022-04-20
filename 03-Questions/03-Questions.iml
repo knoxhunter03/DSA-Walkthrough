@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/73 - Set Matrix Zeroes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/118 - Pascal's Triangle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/31 - Next Permutation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/53 - Maximum Subarray (Kadanes Algo)" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
