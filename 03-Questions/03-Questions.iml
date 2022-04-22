@@ -36,6 +36,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/53 - Maximum Subarray (Kadanes Algo)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/75 - Dutch National Flag Algo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/121 - Best Time to Buy and Sell Stock" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LeetCode/Arrays/74 - Search a 2D Matrix" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
