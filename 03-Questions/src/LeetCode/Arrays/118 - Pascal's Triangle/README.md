@@ -34,6 +34,4 @@ class Solution {
 }
 ```
 
-// Revision Day :)
-
 ## [Stuck? Tap To Watch the Refernece Solution ❤](https://www.youtube.com/watch?v=6FLvhQjZqvM&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=9)
